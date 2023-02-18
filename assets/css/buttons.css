@@ -109,3 +109,7 @@
   background-color: #124C7F !important;
 }
 
+.button-link {
+  max-width: 160px;
+}
+

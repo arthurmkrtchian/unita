@@ -45,6 +45,7 @@ hr {
 .main-last-votes-heading {
   color: #2B6597;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 .main-last-votes {
@@ -344,18 +345,17 @@ hr {
 }
 
 .member-certificate-status {
-  width: 72px;
-  text-align: center;
-  color: #fff;
+  width: 120px;
+  text-align: left;
   font-weight: 600;
 }
 
 #valid {
-  background-color: green;
+  color: green;
 }
 
 #invalid {
-  background-color: rgb(140,31,31);
+  color: rgb(140,31,31);
 }
 
 .map-heading {
@@ -371,5 +371,44 @@ hr {
 .current-page {
   font-weight: 700;
   border-bottom: 3px solid #EFBA4B;
+}
+
+table {
+  font-family: 'Open Sans';
+  width: 100%;
+  height: 26px !important;
+}
+
+.user-voted {
+  color: green;
+}
+
+.voting-type-closed {
+  color: #a72323;
+}
+
+.voting-ends {
+  color: #444444;
+}
+
+.voting-type-opened {
+  color: green;
+}
+
+.votes-list-hr {
+  padding: 0;
+  margin: 0;
+}
+
+.voting-status-panel {
+  font-size: 12px;
+}
+
+.votes-list-hr-top {
+  margin-top: 10px !important;
+}
+
+.col-md-12.col-lg-4.col-xl-9.dec-column.dec-dec-column {
+  margin: 0 auto;
 }
 
