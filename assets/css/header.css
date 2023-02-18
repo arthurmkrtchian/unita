@@ -1,0 +1,41 @@
+.subheading {
+  opacity: 0.4;
+}
+
+.logo-heading {
+  font-size: 26px;
+  text-align: center;
+  font-family: 'Open Sans';
+  color: #ffffff;
+  max-width: 780px;
+  margin: 0 auto 20px auto;
+}
+
+.logo-img {
+  margin-bottom: 20px;
+}
+
+.heading-hr {
+  background-color: #2B6597;
+}
+
+.masthead {
+  width: 100%;
+  margin-bottom: 50px;
+  background: no-repeat 50%;
+  background: radial-gradient(#124c7f 42%, #234161);
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+  padding-top: 20px;
+}
+
+.header-panel {
+  max-width: 90%;
+  margin: 0 auto 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 20px;
+}
+

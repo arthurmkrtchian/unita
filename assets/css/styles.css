@@ -1,0 +1,14 @@
+.logo-image {
+  display: block;
+  width: 128px;
+  margin: 0 auto;
+}
+
+.subheading {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Open Sans';
+}
+

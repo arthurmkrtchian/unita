@@ -1,0 +1,111 @@
+.button-icon {
+  margin-right: 4px;
+}
+
+.btn.btn-primary.button-with-icon {
+  border-radius: 40px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 14px;
+  padding: 4px 10px;
+}
+
+.btn.btn-primary.button-with-icon:hover {
+  border-radius: 40px;
+  border: 1px solid #EFBA4B;
+  background-color: transparent;
+  color: #EFBA4B;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #EFBA4B;
+  border-color: #EFBA4B;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  color: #fff;
+  background-color: transparent;
+  border-color: #EFBA4B;
+  box-shadow: 0 0 0 .2rem rgba(255,168,38,0.48);
+}
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 .2rem rgba(255,168,38,0.48);
+}
+
+.more-button:focus {
+  outline: 0;
+  box-shadow: 0 0 0 .2rem rgba(43, 101, 151, 0.3);
+}
+
+.fas.fa-chevron-right.more-button-icon {
+  margin-left: 4px;
+}
+
+.btn.btn-primary.more-button {
+  background-color: transparent;
+  border: 1px solid #2B6597;
+  border-radius: 40px;
+  color: #2B6597;
+  font-size: 18px;
+  display: block;
+  margin: 30px auto 0 auto;
+}
+
+.btn.btn-primary.more-button:hover {
+  background-color: #2B6597;
+  color: #fff;
+  border-color: #2B6597;
+}
+
+@media (max-width: 768px) {
+  .btn.btn-primary.more-button.goto-voting-button {
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
+    display: block;
+  }
+}
+
+.btn.btn-primary.more-button.goto-voting-button {
+  margin-top: 10px;
+  float: right;
+}
+
+.page-heading {
+}
+
+.voting-status-panel {
+  height: 60px;
+}
+
+@media (max-width: 768px) {
+  .voting-status-panel {
+    height: 120px;
+  }
+}
+
+.btn.btn-primary.document-download {
+  background: #f5f5f5;
+  color: #444444;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-color: #f4f4f4;
+}
+
+.btn.btn-primary.document-download:hover {
+  color: #124C7F;
+}
+
+.fas.fa-file-download.document-download-icon {
+  margin-right: 10px;
+}
+
+.btn.btn-primary.submit-forn-button {
+  background-color: #124C7F !important;
+}
+

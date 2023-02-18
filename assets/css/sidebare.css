@@ -1,0 +1,66 @@
+.date-text {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.date-picker {
+  display: inline-block;
+  max-width: 140px;
+  border: 1px solid #234161;
+  color: #234161;
+  border-radius: 20px;
+  padding: 0 4px 0 8px;
+}
+
+#date-picker-1 {
+  margin-right: 10px;
+}
+
+.date-picker-panel {
+  margin-top: 39px;
+  float: left;
+}
+
+.articles-section {
+  margin-top: 30px;
+}
+
+.list-group-item {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  color: #234161;
+}
+
+.section-link {
+  width: 100%;
+  display: block;
+  color: #234161;
+}
+
+.section-link:hover {
+  color: #EFBA4B;
+  text-decoration: none;
+}
+
+.date-picker-subpanel {
+  display: inline-block;
+}
+
+.articles-section {
+  float: left;
+}
+
+@media (max-width: 991px) {
+  .articles-section {
+    float: right;
+  }
+}
+
+@media (max-width: 476px) {
+  .articles-section {
+    min-width: 300px;
+    float: left;
+  }
+}
+
